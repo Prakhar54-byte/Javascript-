@@ -57,10 +57,25 @@ const user = [
 user[2].id
 
 
-console.log(inst_user);
+// console.log(inst_user);
 
-console.log(Object.keys(inst_user));
-console.log(Object.values(inst_user));
-console.log(Object.entries(inst_user));
+// console.log(Object.keys(inst_user));
+// console.log(Object.values(inst_user));
+// console.log(Object.entries(inst_user));
 
-console.log(inst_user.hasOwnProperty("name"));
+// console.log(inst_user.hasOwnProperty("name"));
+
+
+
+const course = {
+    courname:"js in hindi",
+    price:5656,
+    coureInstructor:"Prakhar"
+}
+
+const {coureInstructor: instructor} = course
+
+// console.log(coureInstructor);
+console.log(instructor);
+
+
